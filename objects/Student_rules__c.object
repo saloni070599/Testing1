@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Roll_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Roll Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stud_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Stud Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stud_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Stud name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mob_no__c</fullName>
+        <externalId>false</externalId>
+        <label>mob no</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <label>Student rules</label>
+    <visibility>Public</visibility>
+</CustomObject>

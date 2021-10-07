@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Course_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Course Completed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Course__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Course</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BE</fullName>
+                    <default>true</default>
+                    <label>BE</label>
+                </value>
+                <value>
+                    <fullName>BCom</fullName>
+                    <default>false</default>
+                    <label>BCom</label>
+                </value>
+                <value>
+                    <fullName>BA</fullName>
+                    <default>false</default>
+                    <label>BA</label>
+                </value>
+                <value>
+                    <fullName>MBBS</fullName>
+                    <default>false</default>
+                    <label>MBBS</label>
+                </value>
+                <value>
+                    <fullName>BHMS</fullName>
+                    <default>false</default>
+                    <label>BHMS</label>
+                </value>
+                <value>
+                    <fullName>BCA</fullName>
+                    <default>false</default>
+                    <label>BCA</label>
+                </value>
+                <value>
+                    <fullName>BCS</fullName>
+                    <default>false</default>
+                    <label>BCS</label>
+                </value>
+                <value>
+                    <fullName>BBA</fullName>
+                    <default>false</default>
+                    <label>BBA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>S_Mob_No__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>S Mob No</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>S_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>S Name</label>
+        <length>101</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_roll_no__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>S roll no</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Stud metadata</label>
+    <pluralLabel>Stud metadatas</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
